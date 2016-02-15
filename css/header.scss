@@ -2,6 +2,7 @@
 
 header {
     h1 {
+        margin: 30px 0;
         text-align: center;
         a {
             color: #000;
@@ -13,5 +14,12 @@ header {
                 text-decoration: underline;
             }
         }
+    }
+}
+
+.top {
+    header h1 {
+        font-size: 3.2em;
+        margin: 60px 0;
     }
 }

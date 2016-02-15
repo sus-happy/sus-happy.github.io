@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+$text-font: #000;
+
+@mixin button($bg, $hover) {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 3px;
+    text-decoration: none;
+    border-radius: 3px;
+    background: $bg;
+    border: darken($bg, 30%);
+    transition: background .2s;
+
+    &:hover {
+        background: $hover;
+    }
+}

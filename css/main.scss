@@ -1,6 +1,30 @@
 @charset "UTF-8";
 
+@import "component";
+
 main {
-    width: 640px;
-    margin: 60px auto;
+    width: 580px;
+    margin: 0 auto 60px;
+
+    h2 {
+        margin-bottom: 0;
+    }
+    .meta {
+        margin: 0;
+    }
+}
+
+.post {
+}
+
+.back {
+    text-align: center;
+    margin-top: 45px;
+
+    a {
+        @include button(#fff, #eee);
+
+        border: 1px solid #ddd;
+        color: #000;
+    }
 }
