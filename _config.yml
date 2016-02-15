@@ -1,4 +1,5 @@
-name: "SUSH-i RPT"
+encoding: utf-8
+title: "SUSH-i RPT"
 description: "SUSH's Report."
 gems:
   - jekyll-sitemap
