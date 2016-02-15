@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+header {
+    h1 {
+        text-align: center;
+        a {
+            color: #000;
+            text-decoration: none;
+            &:visited {
+                color: #000;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
