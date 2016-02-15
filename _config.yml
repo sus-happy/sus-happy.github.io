@@ -1,5 +1,5 @@
-name: SUSH-i RPT
-description: SUSH's Report.
+name: "SUSH-i RPT"
+description: "SUSH's Report."
 gems:
   - jekyll-sitemap
   - jekyll-feed
