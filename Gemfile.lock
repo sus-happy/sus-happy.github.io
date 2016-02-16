@@ -1,0 +1,12 @@
+GEM
+  specs:
+    jekyll-sitemap (0.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-sitemap (~> 0.10.0)
+
+BUNDLED WITH
+   1.11.2
