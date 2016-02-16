@@ -15,6 +15,13 @@ main {
 }
 
 .post {
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #eee;
+        padding: 5px;
+    }
 }
 
 .back {
