@@ -2,6 +2,7 @@ encoding: utf-8
 title: "SUSH-i RPT"
 description: "SUSH's Report."
 exclude: [".git"]
+highlighter: rouge
 gems:
   - jekyll-sitemap
   - jekyll-feed
